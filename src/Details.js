@@ -3,7 +3,7 @@
 import logogradient from './assets/logo.svg';
 import logo from './assets/logo2.svg';
 // Profile Image
-import profile from './assets/profile.jpg';
+import profile from './assets/picture.png';
 // Tech stack images
 import html from './assets/techstack/html.png';
 import css from './assets/techstack/css.png';
@@ -18,7 +18,7 @@ import npm from './assets/techstack/npm.png';
 import postman from './assets/techstack/postman.png';
 import figma from './assets/techstack/figma.png';
 // Porject Images
-import projectImage1 from './assets/projects/project1.jpg';
+import projectImage1 from './assets/projects/markilang.jpeg';
 import projectImage2 from './assets/projects/project2.jpg';
 import projectImage3 from './assets/projects/project3.jpg';
 import projectImage4 from './assets/projects/project4.jpg';
@@ -41,10 +41,10 @@ export const personalDetails = {
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-	linkdein: 'https://www.linkedin.com/',
-	github: 'https://www.github.com/',
+	linkdein: 'https://www.linkedin.com/in/nofrialdi',
+	github: 'https://github.com/nofrialdi',
 	twitter: 'https://twitter.com/',
-	instagram: 'https://www.instagram.com/',
+	instagram: 'https://www.instagram.com/nofrialdii/',
 };
 
 // Enter your Work Experience here
@@ -107,59 +107,59 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
 	{
-		title: 'Project title 1',
+		title: 'Markilang',
 		image: projectImage1,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: 'HTML/CSS, JavaScript',
-		previewLink: 'https://google.com',
+		description: `An online auction platform for those wanting to sell or find rare collectibles and small valuables. 
+		Registered users can bid on their favourite selections and keep track of their bidding list or manage their auctioned assets.`,
+		techstack: 'HTML/CSS, JavaScript, Next JS, Tailwind CSS, PostgreSQL',
+		previewLink: 'https://markilang.vercel.app/',
 		githubLink: 'https://github.com',
 	},
-	{
-		title: 'Project title 2',
-		image: projectImage2,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: 'HTML/CSS, JavaScript',
-		previewLink: 'https://google.com',
-		githubLink: 'https://github.com',
-	},
-	{
-		title: 'Project title 3',
-		image: projectImage3,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: 'HTML/CSS, JavaScript',
-		previewLink: 'https://google.com',
-		githubLink: 'https://github.com',
-	},
-	{
-		title: 'Project title 4',
-		image: projectImage4,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: 'HTML/CSS, JavaScript',
-		previewLink: 'https://google.com',
-		githubLink: 'https://github.com',
-	},
-	{
-		title: 'Project title 5',
-		image: projectImage5,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: 'HTML/CSS, JavaScript',
-		previewLink: 'https://google.com',
-		githubLink: 'https://github.com',
-	},
-	{
-		title: 'Project title 6',
-		image: projectImage6,
-		description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-		techstack: 'HTML/CSS, JavaScript',
-		previewLink: 'https://google.com',
-		githubLink: 'https://github.com',
-	},
+	// 	{
+	// 		title: 'Project title 2',
+	// 		image: projectImage2,
+	// 		description: `This is sample project description random things are here in description This is sample
+	// project lorem ipsum generator for dummy content`,
+	// 		techstack: 'HTML/CSS, JavaScript',
+	// 		previewLink: 'https://google.com',
+	// 		githubLink: 'https://github.com',
+	// 	},
+	// 	{
+	// 		title: 'Project title 3',
+	// 		image: projectImage3,
+	// 		description: `This is sample project description random things are here in description This is sample
+	// project lorem ipsum generator for dummy content`,
+	// 		techstack: 'HTML/CSS, JavaScript',
+	// 		previewLink: 'https://google.com',
+	// 		githubLink: 'https://github.com',
+	// 	},
+	// 	{
+	// 		title: 'Project title 4',
+	// 		image: projectImage4,
+	// 		description: `This is sample project description random things are here in description This is sample
+	// project lorem ipsum generator for dummy content`,
+	// 		techstack: 'HTML/CSS, JavaScript',
+	// 		previewLink: 'https://google.com',
+	// 		githubLink: 'https://github.com',
+	// 	},
+	// 	{
+	// 		title: 'Project title 5',
+	// 		image: projectImage5,
+	// 		description: `This is sample project description random things are here in description This is sample
+	// project lorem ipsum generator for dummy content`,
+	// 		techstack: 'HTML/CSS, JavaScript',
+	// 		previewLink: 'https://google.com',
+	// 		githubLink: 'https://github.com',
+	// 	},
+	// 	{
+	// 		title: 'Project title 6',
+	// 		image: projectImage6,
+	// 		description: `This is sample project description random things are here in description This is sample
+	// project lorem ipsum generator for dummy content`,
+	// 		techstack: 'HTML/CSS, JavaScript',
+	// 		previewLink: 'https://google.com',
+	// 		githubLink: 'https://github.com',
+	// 	},
 ];
 
 // Enter your Contact Details here
