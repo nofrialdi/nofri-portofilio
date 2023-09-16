@@ -127,7 +127,7 @@ export const projectDetails = [
 		title: "Pokemon Web App",
 		image: projectImage3,
 		description: `Pokemon web app is a website that displays a list of Pokemon and details of those Pokemon`,
-		techstack: "HTML/CSS, JavaScript",
+		techstack: "HTML/CSS, Next JS, JavaScript",
 		previewLink: "https://pokemons-apps.vercel.app/",
 		githubLink: "https://github.com/nofrialdi/pokemon-app",
 	},
