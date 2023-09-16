@@ -1,29 +1,29 @@
 // Enter all your detials in this file
 // Logo images
-import logogradient from './assets/logo.svg';
-import logo from './assets/logo2.svg';
+import logogradient from "./assets/logo.svg";
+import logo from "./assets/logo2.svg";
 // Profile Image
-import profile from './assets/picture.png';
+import profile from "./assets/picture.png";
 // Tech stack images
-import html from './assets/techstack/html.png';
-import css from './assets/techstack/css.png';
-import js from './assets/techstack/js.png';
-import react from './assets/techstack/react.png';
-import tailwind from './assets/techstack/tailwind.png';
-import bootstrap from './assets/techstack/bootstrap.png';
-import vscode from './assets/techstack/vscode.png';
-import github from './assets/techstack/github.png';
-import git from './assets/techstack/git.png';
-import npm from './assets/techstack/npm.png';
-import postman from './assets/techstack/postman.png';
-import figma from './assets/techstack/figma.png';
+import html from "./assets/techstack/html.png";
+import css from "./assets/techstack/css.png";
+import js from "./assets/techstack/js.png";
+import react from "./assets/techstack/react.png";
+import tailwind from "./assets/techstack/tailwind.png";
+import bootstrap from "./assets/techstack/bootstrap.png";
+import vscode from "./assets/techstack/vscode.png";
+import github from "./assets/techstack/github.png";
+import git from "./assets/techstack/git.png";
+import npm from "./assets/techstack/npm.png";
+import postman from "./assets/techstack/postman.png";
+import figma from "./assets/techstack/figma.png";
 // Porject Images
-import projectImage1 from './assets/projects/markilang.jpeg';
-import projectImage2 from './assets/projects/project2.jpg';
-import projectImage3 from './assets/projects/project3.jpg';
-import projectImage4 from './assets/projects/project4.jpg';
-import projectImage5 from './assets/projects/project5.jpg';
-import projectImage6 from './assets/projects/project6.jpg';
+import projectImage1 from "./assets/projects/markilang.jpeg";
+import projectImage2 from "./assets/projects/wareg.png";
+import projectImage3 from "./assets/projects/pokemon.png";
+import projectImage4 from "./assets/projects/project4.jpg";
+import projectImage5 from "./assets/projects/project5.jpg";
+import projectImage6 from "./assets/projects/project6.jpg";
 
 // Logos
 export const logos = {
@@ -33,58 +33,58 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-	name: 'Nofrialdi',
-	tagline: 'I build things for web',
+	name: "Nofrialdi",
+	tagline: "I build things for web",
 	img: profile,
 	about: `Experienced Software Developer with expertise in design, installation, testing and maintenance of software systems. Equipped with a diverse and promising skill-set. Proficient in various platforms, languages, and embedded systems. Experienced with cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-	linkdein: 'https://www.linkedin.com/in/nofrialdi',
-	github: 'https://github.com/nofrialdi',
-	twitter: 'https://twitter.com/',
-	instagram: 'https://www.instagram.com/nofrialdii/',
+	linkdein: "https://www.linkedin.com/in/nofrialdi",
+	github: "https://github.com/nofrialdi",
+	twitter: "https://twitter.com/",
+	instagram: "https://www.instagram.com/nofrialdii/",
 };
 
 // Enter your Work Experience here
 export const workDetails = [
 	{
-		Position: 'Assistant Instructure',
+		Position: "Assistant Instructure",
 		Company: `Cv. Bina Kreasi Informatika`,
-		Location: 'Bekasi',
-		Type: 'Full Time',
-		Duration: 'Jan 2018 - Nov 2019',
+		Location: "Bekasi",
+		Type: "Full Time",
+		Duration: "Jan 2018 - Nov 2019",
 	},
 	{
-		Position: 'Android Developer',
+		Position: "Android Developer",
 		Company: `PT. Fedora`,
-		Location: 'Jakarta',
-		Type: 'Full Time',
-		Duration: 'Sep 2016 - Dec 2017',
+		Location: "Jakarta",
+		Type: "Full Time",
+		Duration: "Sep 2016 - Dec 2017",
 	},
 	{
-		Position: 'Assistant Professor',
+		Position: "Assistant Professor",
 		Company: `STMIK Jayakarta`,
-		Location: 'Jakarta',
-		Type: 'Full Time',
-		Duration: 'Aug 2015 - Jul 2016',
+		Location: "Jakarta",
+		Type: "Full Time",
+		Duration: "Aug 2015 - Jul 2016",
 	},
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
 	{
-		Position: 'Bachelor Degree in Information System',
-		Company: 'STMIK Jayakarta',
-		Location: 'Jakarta',
-		Duration: 'Jan 2013 - Apr 2017',
+		Position: "Bachelor Degree in Information System",
+		Company: "STMIK Jayakarta",
+		Location: "Jakarta",
+		Duration: "Jan 2013 - Apr 2017",
 	},
 	{
-		Position: 'High School',
+		Position: "High School",
 		Company: `SMA Negeri 11`,
-		Location: 'Ambon',
-		Duration: 'Jan 2009 - May 2012',
+		Location: "Ambon",
+		Duration: "Jan 2009 - May 2012",
 	},
 ];
 
@@ -107,32 +107,30 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
 	{
-		title: 'Markilang',
+		title: "Markilang Web App",
 		image: projectImage1,
 		description: `An online auction platform for those wanting to sell or find rare collectibles and small valuables. 
 		Registered users can bid on their favourite selections and keep track of their bidding list or manage their auctioned assets.`,
-		techstack: 'HTML/CSS, JavaScript, Next JS, Tailwind CSS, PostgreSQL',
-		previewLink: 'https://markilang.vercel.app/',
-		githubLink: 'https://github.com',
+		techstack: "HTML/CSS, JavaScript, Next JS, Tailwind CSS, PostgreSQL",
+		previewLink: "https://markilang.vercel.app/",
+		githubLink: "https://github.com",
 	},
-	// 	{
-	// 		title: 'Project title 2',
-	// 		image: projectImage2,
-	// 		description: `This is sample project description random things are here in description This is sample
-	// project lorem ipsum generator for dummy content`,
-	// 		techstack: 'HTML/CSS, JavaScript',
-	// 		previewLink: 'https://google.com',
-	// 		githubLink: 'https://github.com',
-	// 	},
-	// 	{
-	// 		title: 'Project title 3',
-	// 		image: projectImage3,
-	// 		description: `This is sample project description random things are here in description This is sample
-	// project lorem ipsum generator for dummy content`,
-	// 		techstack: 'HTML/CSS, JavaScript',
-	// 		previewLink: 'https://google.com',
-	// 		githubLink: 'https://github.com',
-	// 	},
+	{
+		title: "Wareg Web App",
+		image: projectImage2,
+		description: `wareg app adalah sebuah website yang menyediakan atau menjual makanan sehat `,
+		techstack: "HTML/CSS,Tailwind CSS, TypeScript, Next JS, Nest JS, PostgreSQL",
+		previewLink: "https://w23-vercel-cub24rt71-anggr.vercel.app/",
+		githubLink: "https://github.com/nofrialdi/wareg-web-app",
+	},
+	{
+		title: "Pokemon Web App",
+		image: projectImage3,
+		description: `Pokemon web app is a website that displays a list of Pokemon and details of those Pokemon`,
+		techstack: "HTML/CSS, JavaScript",
+		previewLink: "https://pokemons-apps.vercel.app/",
+		githubLink: "https://github.com/nofrialdi/pokemon-app",
+	},
 	// 	{
 	// 		title: 'Project title 4',
 	// 		image: projectImage4,
@@ -164,6 +162,6 @@ export const projectDetails = [
 
 // Enter your Contact Details here
 export const contactDetails = {
-	email: 'aldi.fasive@gmail.com',
-	phone: '+62 89612022458',
+	email: "aldi.fasive@gmail.com",
+	phone: "+62 89612022458",
 };
