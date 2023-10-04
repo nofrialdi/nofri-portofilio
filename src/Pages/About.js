@@ -1,7 +1,7 @@
-import React from 'react';
-import Work from '../Components/Work';
-import { personalDetails, workDetails, eduDetails } from '../Details';
-import Edu from '../Components/Edu';
+import React from "react";
+import Work from "../Components/Work";
+import { personalDetails, workDetails, eduDetails } from "../Details";
+import Edu from "../Components/Edu";
 
 function About() {
 	return (
@@ -34,12 +34,7 @@ function About() {
 				</h1>
 				{React.Children.toArray(
 					eduDetails.map(({ Position, Company, Location, Duration }) => (
-						<Edu
-							position={Position}
-							company={Company}
-							location={Location}
-							duration={Duration}
-						/>
+						<Edu position={Position} company={Company} location={Location} duration={Duration} />
 					))
 				)}
 			</section>

@@ -21,9 +21,7 @@ import figma from "./assets/techstack/figma.png";
 import projectImage1 from "./assets/projects/markilang.jpeg";
 import projectImage2 from "./assets/projects/wareg.png";
 import projectImage3 from "./assets/projects/pokemon.png";
-import projectImage4 from "./assets/projects/project4.jpg";
-import projectImage5 from "./assets/projects/project5.jpg";
-import projectImage6 from "./assets/projects/project6.jpg";
+import projectImage4 from "./assets/projects/teledoc.png";
 
 // Logos
 export const logos = {
@@ -34,7 +32,7 @@ export const logos = {
 // Enter your Personal Details here
 export const personalDetails = {
 	name: "Nofrialdi",
-	tagline: "I build things for web",
+	tagline: "I am a full stack engineer",
 	img: profile,
 	about: `Experienced Software Developer with expertise in design, installation, testing and maintenance of software systems. Equipped with a diverse and promising skill-set. Proficient in various platforms, languages, and embedded systems. Experienced with cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.`,
 };
@@ -111,15 +109,15 @@ export const projectDetails = [
 		image: projectImage1,
 		description: `An online auction platform for those wanting to sell or find rare collectibles and small valuables. 
 		Registered users can bid on their favourite selections and keep track of their bidding list or manage their auctioned assets.`,
-		techstack: "HTML/CSS, JavaScript, Next JS, Tailwind CSS, PostgreSQL",
+		techstack: "JavaScript, Next JS, Tailwind CSS, PostgreSQL",
 		previewLink: "https://markilang.vercel.app/",
 		githubLink: "https://github.com",
 	},
 	{
 		title: "Wareg Web App",
 		image: projectImage2,
-		description: `wareg app adalah sebuah website yang menyediakan atau menjual makanan sehat `,
-		techstack: "HTML/CSS,Tailwind CSS, TypeScript, Next JS, Nest JS, PostgreSQL",
+		description: `wareg app is a website that provides or sells healthy food `,
+		techstack: "Tailwind CSS, TypeScript, Next JS, Nest JS, PostgreSQL",
 		previewLink: "https://w23-vercel-cub24rt71-anggr.vercel.app/",
 		githubLink: "https://github.com/nofrialdi/wareg-web-app",
 	},
@@ -130,6 +128,15 @@ export const projectDetails = [
 		techstack: "HTML/CSS, Next JS, JavaScript",
 		previewLink: "https://pokemons-apps.vercel.app/",
 		githubLink: "https://github.com/nofrialdi/pokemon-app",
+	},
+
+	{
+		title: "Teledoc App",
+		image: projectImage4,
+		description: `The Teladoc application is a mobile web-based application that aims to make it easier for users or patients to make appointments with doctors online`,
+		techstack: "Tailwind CSS, Next JS, TypeScript, PostgreSQL",
+		previewLink: "https://www.teledoc.tech/",
+		githubLink: "https://github.com/Teledoc-App/teledoc-app",
 	},
 	// 	{
 	// 		title: 'Project title 4',
