@@ -73,16 +73,16 @@ export const workDetails = [
 // Enter your Education Details here
 export const eduDetails = [
 	{
+		Position: "Software Engineering",
+		Company: "RevoU",
+		Location: "Jakarta",
+		Duration: "Jan 2023 - Jul 2023",
+	},
+	{
 		Position: "Bachelor Degree in Information System",
 		Company: "STMIK Jayakarta",
 		Location: "Jakarta",
 		Duration: "Jan 2013 - Apr 2017",
-	},
-	{
-		Position: "High School",
-		Company: `SMA Negeri 11`,
-		Location: "Ambon",
-		Duration: "Jan 2009 - May 2012",
 	},
 ];
 
