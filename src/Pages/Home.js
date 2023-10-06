@@ -102,7 +102,7 @@ function Home() {
 					<button
 						ref={h14}
 						onClick={handleDownload}
-						className="btn btn-primary border-2 text-white p-2 rounded-2xl my-2"
+						className="btn btn-primary border-2 bg-sky-500 text-white p-2 rounded-2xl my-2"
 					>
 						Download CV
 					</button>
