@@ -2,8 +2,24 @@ import React from "react";
 import { techStackDetails } from "../Details";
 
 function Technologies() {
-	const { html, css, js, react, tailwind, bootstrap, vscode, git, github, npm, postman, figma } =
-		techStackDetails;
+	const {
+		html,
+		css,
+		js,
+		react,
+		tailwind,
+		bootstrap,
+		vscode,
+		git,
+		github,
+		npm,
+		postman,
+		figma,
+		nest,
+		php,
+		codeigniter,
+		next,
+	} = techStackDetails;
 	return (
 		<main className="container mx-auto max-width pt-10 pb-20 ">
 			<section>
@@ -21,6 +37,10 @@ function Technologies() {
 				<img src={react} title="React" alt="" />
 				<img src={tailwind} title="Tailwind CSS" alt="" />
 				<img src={bootstrap} title="Bootstrap" alt="" />
+				<img src={nest} title="Nest" alt="" />
+				<img src={php} title="PHP" alt="" />
+				<img src={codeigniter} title="CodeIgniter" alt="" />
+				<img src={next} title="Next" alt="" />
 			</section>
 			<section>
 				<h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">

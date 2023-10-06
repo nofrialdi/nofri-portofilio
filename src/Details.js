@@ -17,6 +17,10 @@ import git from "./assets/techstack/git.png";
 import npm from "./assets/techstack/npm.png";
 import postman from "./assets/techstack/postman.png";
 import figma from "./assets/techstack/figma.png";
+import codeigniter from "./assets/techstack/codeigniter.png";
+import nest from "./assets/techstack/nest.png";
+import next from "./assets/techstack/nextjs.png";
+import php from "./assets/techstack/php.png";
 // Porject Images
 import projectImage1 from "./assets/projects/markilang.jpeg";
 import projectImage2 from "./assets/projects/wareg.png";
@@ -100,6 +104,10 @@ export const techStackDetails = {
 	git: git,
 	github: github,
 	figma: figma,
+	codeigniter: codeigniter,
+	next: next,
+	php: php,
+	nest: nest,
 };
 
 // Enter your Project Details here
