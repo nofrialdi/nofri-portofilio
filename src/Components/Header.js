@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom';
-import { socialMediaUrl } from '../Details';
+import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
+import { socialMediaUrl } from "../Details";
 
 function Header() {
 	const [isOpen, setIsOpen] = useState(false);
-	const { linkdein, github, twitter } = socialMediaUrl;
+	const { linkdein, github } = socialMediaUrl;
 	const toggleClass = () => {
 		setIsOpen(!isOpen);
 	};
@@ -34,7 +34,7 @@ function Header() {
 					</svg>
 				</div>
 			</div>
-			<nav className={` ${!isOpen ? 'hidden' : null} text-center md:flex justify-between`}>
+			<nav className={` ${!isOpen ? "hidden" : null} text-center md:flex justify-between`}>
 				<ul className="dark:text-light-content font-medium md:flex items-center md:space-x-5 md:mr-10">
 					<li className="pb-1 md:pb-0">
 						<NavLink to="/" onClick={toggleClass}>

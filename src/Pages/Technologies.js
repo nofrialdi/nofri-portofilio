@@ -42,7 +42,6 @@ function Technologies() {
 				<img src={php} title="PHP" alt="" />
 				<img src={codeigniter} title="CodeIgniter" alt="" />
 				<img src={next} title="Next" alt="" />
-				<img src={mysql} title="MySQL" alt="" />
 				<img src={postgresql} title="PostgreSQL" alt="" />
 			</section>
 			<section>
