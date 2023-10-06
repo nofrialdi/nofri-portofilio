@@ -19,6 +19,8 @@ function Technologies() {
 		php,
 		codeigniter,
 		next,
+		mysql,
+		postgresql,
 	} = techStackDetails;
 	return (
 		<main className="container mx-auto max-width pt-10 pb-20 ">
@@ -41,6 +43,8 @@ function Technologies() {
 				<img src={php} title="PHP" alt="" />
 				<img src={codeigniter} title="CodeIgniter" alt="" />
 				<img src={next} title="Next" alt="" />
+				<img src={mysql} title="MySQL" alt="" />
+				<img src={postgresql} title="PostgreSQL" alt="" />
 			</section>
 			<section>
 				<h1 className="text-2xl pt-10 text-dark-heading dark:text-light-heading md:text-4xl xl:text-5xl xl:leading-tight font-bold">
