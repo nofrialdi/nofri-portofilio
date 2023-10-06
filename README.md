@@ -1,3 +1,3 @@
-# React Developer Portfolio template
+# Nofrialdi Portofilio
 
 #### Live https://nofri-portofilio.vercel.app/
