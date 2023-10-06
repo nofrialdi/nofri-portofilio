@@ -19,7 +19,6 @@ function Technologies() {
 		php,
 		codeigniter,
 		next,
-		mysql,
 		postgresql,
 	} = techStackDetails;
 	return (

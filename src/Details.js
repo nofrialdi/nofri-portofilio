@@ -21,7 +21,6 @@ import codeigniter from "./assets/techstack/codeigniter.png";
 import nest from "./assets/techstack/nest.png";
 import next from "./assets/techstack/nextjs.png";
 import php from "./assets/techstack/php.png";
-import mysql from "./assets/techstack/mysql.png";
 import postgresql from "./assets/techstack/postgresql.png";
 
 // Porject Images
@@ -111,7 +110,6 @@ export const techStackDetails = {
 	next: next,
 	php: php,
 	nest: nest,
-	mysql: mysql,
 	postgresql: postgresql,
 };
 
