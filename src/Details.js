@@ -40,7 +40,7 @@ export const personalDetails = {
 	name: "Nofrialdi",
 	tagline: "I am a full stack engineer",
 	img: profile,
-	about: `Experienced Software Developer with expertise in design, installation, testing and maintenance of software systems. Equipped with a diverse and promising skill-set. Proficient in various platforms, languages, and embedded systems. Experienced with cutting-edge development tools and procedures. Able to effectively self-manage during independent projects, as well as collaborate as part of a productive team.`,
+	about: `I'm Nofrialdi, and I love coding! I am a graduate of Informatics Systems with an interest in programming. Have an understanding of application and web development, as well as database management. Skilled in Java and PHP programming languages and familiar with HTML, CSS, Javascript, TypeScript, React.js framework, Next.js codeigniter, Postgresql, and MySQL.`,
 };
 
 // Enter your Social Media URLs here
