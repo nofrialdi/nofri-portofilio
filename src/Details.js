@@ -28,6 +28,7 @@ import projectImage1 from "./assets/projects/markilang.jpeg";
 import projectImage2 from "./assets/projects/wareg.png";
 import projectImage3 from "./assets/projects/pokemon.png";
 import projectImage4 from "./assets/projects/teledoc.png";
+import projectImage5 from "./assets/projects/growink.png";
 
 // Logos
 export const logos = {
@@ -149,33 +150,15 @@ export const projectDetails = [
 		previewLink: "https://www.teledoc.tech/",
 		githubLink: "https://github.com/Teledoc-App/teledoc-app",
 	},
-	// 	{
-	// 		title: 'Project title 4',
-	// 		image: projectImage4,
-	// 		description: `This is sample project description random things are here in description This is sample
-	// project lorem ipsum generator for dummy content`,
-	// 		techstack: 'HTML/CSS, JavaScript',
-	// 		previewLink: 'https://google.com',
-	// 		githubLink: 'https://github.com',
-	// 	},
-	// 	{
-	// 		title: 'Project title 5',
-	// 		image: projectImage5,
-	// 		description: `This is sample project description random things are here in description This is sample
-	// project lorem ipsum generator for dummy content`,
-	// 		techstack: 'HTML/CSS, JavaScript',
-	// 		previewLink: 'https://google.com',
-	// 		githubLink: 'https://github.com',
-	// 	},
-	// 	{
-	// 		title: 'Project title 6',
-	// 		image: projectImage6,
-	// 		description: `This is sample project description random things are here in description This is sample
-	// project lorem ipsum generator for dummy content`,
-	// 		techstack: 'HTML/CSS, JavaScript',
-	// 		previewLink: 'https://google.com',
-	// 		githubLink: 'https://github.com',
-	// 	},
+
+	{
+		title: "Growink App",
+		image: projectImage5,
+		description: `Growink App is a website with a mobile web base which aims to make it easier for farmers to make agricultural records, view agricultural history, and monitor their agriculture, apart from that there is a financial feature which aims to record their expenses and income and can see the history of their expenses and income and can also see their balance In the design stage, this website was created using Next Js technology as the frontend, Nest Js as the backend and using PostgresQL for the database.`,
+		techstack: "Material UI, Next JS, TypeScript, PostgreSQL, Nest JS",
+		previewLink: "https://growink.vercel.app/",
+		githubLink: "https://github.com/growink-app/growink-app",
+	},
 ];
 
 // Enter your Contact Details here
