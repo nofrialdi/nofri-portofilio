@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import gsap from "gsap";
 import { personalDetails } from "../Details";
-import cvPDF from "../assets/doc/nofrialdi_cv.pdf";
+import cvPDF from "../assets/doc/nofri_cv.pdf";
 
 function Home() {
 	const handleDownload = () => {
